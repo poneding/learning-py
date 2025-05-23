@@ -1,0 +1,19 @@
+
+# config 
+app = "toml-demo"
+version = 20250523
+dependencies = ["api1", "api2"]
+release_date = 2025-05-23T00:00:00Z
+
+# 两个中括号表示一个列表
+[[accounts]]
+name = "account1"
+email = "account1@mail.com"
+
+[[accounts]]
+name = "account2"
+email = "account2@mail.com"
+
+# 隔开，否则会成为accounts的一个属性
+[user_section]
+users = [{ name = "user1", age = 30 }, { name = "user2", age = 25 }]
