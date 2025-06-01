@@ -1,8 +1,5 @@
-import requests
-
-
 def main():
-    print(requests.__version__)
+    print("Hello from learning-py!")
 
 
 if __name__ == "__main__":

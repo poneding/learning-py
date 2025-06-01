@@ -1,10 +1,14 @@
-# uv Python 项目
+# learning-py
 
-强力推荐 uv！
+本项目是学习 Python 的一个仓库，包含了各种 Python 相关的示例代码和项目。
+
+## uv
+
+推荐使用 uv 管理 python 项目。
 
 ```bash
 # 创建项目
-uv init my_project
+uv init learning-py && cd learning-py
 
 # 安装依赖
 uv add requests
@@ -16,7 +20,7 @@ uv run main.py
 uv sync
 
 # 安装测试工具，安装完之后直接 pytest 可以使用了
-uv tool  install pytest
+uv tool install pytest
 uv tool uninstall pytest
 
 # 使用临时环境，并在文件中生成依赖信息
