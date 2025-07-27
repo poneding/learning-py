@@ -1,9 +1,9 @@
+import collections
+import datetime
+import functools
+import itertools
+import json
 import math
 import os
 import random
-import datetime
-import json
 import re
-import collections
-import itertools
-import functools

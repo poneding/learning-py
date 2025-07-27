@@ -4,4 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "aiohttp>=3.12.14",
+    "ipykernel>=6.29.5",
+    "pdfminer>=20191125",
+    "pdfminer-six>=20250506",
+]
+
+[tool.ruff]
+ignore = [
+    "F401", # Module imported but unused
+]
