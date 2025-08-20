@@ -9,6 +9,7 @@ dependencies = [
     "ipykernel>=6.29.5",
     "pdfminer>=20191125",
     "pdfminer-six>=20250506",
+    "pytest>=8.4.1",
 ]
 
 [tool.ruff]
